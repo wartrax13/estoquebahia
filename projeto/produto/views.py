@@ -12,6 +12,7 @@ def produto_list(request):
 
 
 def produto_detail(request, pk):
+    # produto detalhe
     template_name = 'produto_detail.html'
     obj = Produto.objects.get(pk=pk)
     context = {'object': obj}
