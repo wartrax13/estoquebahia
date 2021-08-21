@@ -37,22 +37,22 @@ class ProdutoClass:
         Produto.objects.bulk_create(aux)
 
 produtos = (
-    'Apontador',
-    'Caderno 100 folhas',
-    'Caderno capa dura 200 folhas',
-    'Caneta esferográfica azul',
-    'Caneta esferográfica preta',
-    'Caneta esferográfica vermelha',
-    'Durex',
-    'Giz de cera 12 cores',
-    'Lapiseira 0.3 mm',
-    'Lapiseira 0.5 mm',
-    'Lapiseira 0.7 mm',
-    'Lápis de cor 24 cores',
-    'Lápis',
-    'Papel sulfite A4 pacote 100 folhas',
-    'Pasta elástica',
-    'Tesoura',
+    'Brahma Lata',
+    'Antartica Lata',
+    'Heinekein Lata',
+    'Original Lata',
+    'Baden 600ml',
+    'Serramalte Lata',
+    'Coxinha',
+    'Brahma Litro',
+    'Amendoim',
+    'Guaraná Lata',
+    'Suco de laranja',
+    'Paçoca',
+    'Água',
+    'Sprite Lata',
+    'Skol Litrão',
+    'Torcida',
 )
 
 tic = timeit.default_timer()
