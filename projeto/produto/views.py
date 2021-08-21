@@ -5,6 +5,7 @@ from .forms import ProdutoForm
 
 
 def produto_list(request):
+    # lista
     template_name = 'produto_list.html'
     objects = Produto.objects.all()
     context = {'object_list': objects}
