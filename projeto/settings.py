@@ -30,8 +30,8 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 # DEBUG = os.environ.get('DEBUG') == True
 
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', default=[], cast=Csv())
-# ALLOWED_HOSTS = ['https://estoquebahia.herokuapp.com/']
+# ALLOWED_HOSTS = config('ALLOWED_HOSTS', default=[], cast=Csv())
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost' , 'https://estoquebahia.herokuapp.com/']
 
 # Application definition
 
