@@ -3,7 +3,7 @@ from django.views.generic import CreateView, UpdateView
 from .models import Produto
 from .forms import ProdutoForm
 
-
+# mudança
 def produto_list(request):
     # lista
     template_name = 'produto_list.html'

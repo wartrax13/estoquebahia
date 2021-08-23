@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECRET_KEY = 'django-insecure-fw!s($835ma4)-la0v!l9btgc$+936edfm!k(@ozv2@4rfdk)9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# teste
+
 DEBUG = config('DEBUG', default=False, cast=bool)
 # DEBUG = os.environ.get('DEBUG') == True
 
