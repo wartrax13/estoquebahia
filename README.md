@@ -1,9 +1,9 @@
 ## Projeto de teste
 
 https://estoquebahia.herokuapp.com/
-## Links
 
-## Links
+
+## Links utilizados 
 
 [python-decouple](https://github.com/henriquebastos/python-decouple)
 
